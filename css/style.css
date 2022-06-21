@@ -100,6 +100,7 @@ input::placeholder{
 .top{
     display: flex;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
 .top_left{
