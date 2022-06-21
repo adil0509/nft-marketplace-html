@@ -17,7 +17,6 @@ body, p, h1{
 
 .ai-c{
     align-items: center;
-    background-color: rgba(217, 224, 236, 0.2);
 }
 
 .mt-250{
@@ -54,6 +53,10 @@ header > * {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bg-gray{
+    background-color: rgba(217, 224, 236, 0.2);
 }
 
 .logo{
@@ -159,6 +162,26 @@ input::placeholder{
     height: 320px;
 }
 
-.feature_item::before{
-    
+#feature_item_1, #feature_item_2{
+    position: relative;
+}
+
+#feature_item_1::before{
+    content: "";
+    background-image: url("../img/card.png");
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+#feature_item_2::before{
+    content: "";
+    background-image: url("../img/chart.png");
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: -50px;
 }
