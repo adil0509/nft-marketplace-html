@@ -3,12 +3,29 @@ body, p, h1{
 }
 
 .side-padding{
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .mt-40{
     margin-top: 40px;
+}
+
+.w-250{
+    width: 250px;
+}
+
+.ai-c{
+    align-items: center;
+    background-color: rgba(217, 224, 236, 0.2);
+}
+
+.mt-250{
+    margin-top: 250px;
+}
+
+.mt-120{
+    margin-top: 120px;
 }
 
 .mt-20{
@@ -113,6 +130,12 @@ input::placeholder{
     font-weight: 900;
 }
 
+.title_small{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .subtitle{
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
@@ -121,6 +144,17 @@ input::placeholder{
     line-height: 32px;
 }
 
+.subtitle_small{
+    font-size: 14px;
+    color: #565656;
+    line-height: 22px;
+    font-family: 'DM Sans', sans-serif;
+}
+
 .statistics{
     width: 70%;
+}
+
+.features_block{
+    height: 320px;
 }
